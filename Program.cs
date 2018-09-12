@@ -4,7 +4,7 @@ namespace roller
 {
     class Program
     {
-        /** Roll 25 1d20s */
+        /** Roll 25 1d20s and format output to the console in a 5x5 block of text */
         static void Main(string[] args)
         {
           Random rand = new Random();
